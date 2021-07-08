@@ -24,9 +24,13 @@ body {
 }
 
 h1, h3 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-family: Sriracha;
     letter-spacing: 2px;
+}
+
+h1, a {
+    color: #000;
 }
 
 a {
@@ -46,7 +50,7 @@ a:hover {
     text-align: center;
     width: 72%;
     display: none;
-    margin-top: 3rem;
+    margin-top: -37rem;
 }
 
 .box p {
@@ -83,7 +87,7 @@ a:hover {
     text-align: center;
 }
 
-.popupCloseButto:hover {
+.popupCloseButton:hover {
     background-color: #ccc;
 }
 
@@ -96,3 +100,11 @@ a:hover {
 
 /*---------------------------------end popup box*/
 
+.user-screens {
+    margin: 25% auto;
+}
+
+img {
+    height: 100%;
+    width: 95%;
+}
