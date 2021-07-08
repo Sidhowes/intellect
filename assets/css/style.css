@@ -1,3 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Sriracha:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700");
+
+
 body {
-        background-color: blue;
+        background-color: rgba(121, 205, 238, 0.986);
     }
+
+.logo {
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu {
+    background-color: rgba(25, 25, 25, 0.6);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 10rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 50rem;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+h1, h3 {
+    font-size: 3.5rem;
+    font-family: Sriracha;
+    letter-spacing: 2px;
+}
+
+a {
+    color: rgba(121, 205, 238, 0.986);
+}
+
+a:hover {
+    color: rgb(16, 144, 248);
+    text-decoration: none;
+}
+
+/*---------------------------------------Popup box*/
+
+.box {
+    cursor: pointer;
+    position: fixed;
+    text-align: center;
+    width: 72%;
+    display: none;
+    margin-top: 3rem;
+}
+
+.box p {
+    color: #fff;
+}
+
+.box > div {
+    background-color: rgba(25, 25, 25, 0.9);
+    box-shadow: 10px 10px 60px #555;
+    width: 67%;
+    position: relative;
+    border-radius: 10px;
+    padding: 15px 5%;
+    margin: -106px 0px 0px -9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupCloseButton {
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.popupCloseButto:hover {
+    background-color: #ccc;
+}
+
+.popup {
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/*---------------------------------end popup box*/
+
