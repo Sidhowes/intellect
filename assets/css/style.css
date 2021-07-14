@@ -29,6 +29,13 @@ h1, h3 {
     letter-spacing: 2px;
 }
 
+h2 {
+    font-size: 2rem;
+    font-family: Sriracha;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
 h1, a {
     color: #000;
 }
@@ -48,9 +55,9 @@ a:hover {
     cursor: pointer;
     position: fixed;
     text-align: center;
-    width: 72%;
+    width: 60%;
     display: none;
-    margin-top: -37rem;
+    margin-top: -19rem;
 }
 
 .box p {
